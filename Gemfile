@@ -83,7 +83,7 @@ gem "uglifier"
 gem "coffee-rails"
 gem "jquery-rails"
 gem "turbolinks"
-
+gem "concurrent-ruby", "1.3.4"
 
 
 
