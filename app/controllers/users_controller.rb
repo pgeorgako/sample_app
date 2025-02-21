@@ -60,7 +60,7 @@ class UsersController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user
-      @user = User.find(params
+      @user = User.find(params[:id])
     endgi
 
     # Only allow a list of trusted parameters through.
