@@ -112,7 +112,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.3.4)
+    concurrent-ruby (1.3.5)
     connection_pool (2.5.0)
     crass (1.0.6)
     date (3.4.1)
@@ -486,7 +486,7 @@ DEPENDENCIES
   byebug (= 9.0.6)
   capybara
   coffee-rails
-  concurrent-ruby (= 1.3.4)
+  concurrent-ruby (= 1.3.5)
   debug
   faker
   guard
