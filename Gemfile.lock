@@ -88,9 +88,9 @@ GEM
     bindex (0.8.1)
     bootsnap (1.18.4)
       msgpack (~> 1.2)
-    bootstrap-sass (3.3.7)
+    bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
-      sass (>= 3.3.4)
+      sassc (>= 2.0.0)
     brakeman (7.0.0)
       racc
     builder (3.3.0)
@@ -365,11 +365,6 @@ GEM
       rubocop-rails (>= 2.30)
     ruby-progressbar (1.13.0)
     rubyzip (2.4.1)
-    sass (3.7.4)
-      sass-listen (~> 4.0.0)
-    sass-listen (4.0.0)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
@@ -481,7 +476,7 @@ PLATFORMS
 DEPENDENCIES
   bcrypt
   bootsnap
-  bootstrap-sass (= 3.3.7)
+  bootstrap-sass (= 3.4.1)
   brakeman
   byebug (= 9.0.6)
   capybara

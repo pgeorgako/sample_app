@@ -74,7 +74,7 @@ gem "coffee-rails"
 gem "jquery-rails"
 gem "turbolinks"
 gem "concurrent-ruby", "1.3.4"
-gem "bootstrap-sass", "3.3.7"
+gem "bootstrap-sass", "3.4.1"
 gem "bcrypt"
 gem "faker"
 # Pagination gem
