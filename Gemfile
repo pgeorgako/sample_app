@@ -49,7 +49,7 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
-  gem 'byebug', '9.0.6', platform: :mri
+  gem "byebug", "9.0.6", platform: :mri
 end
 
 group :development do
@@ -61,21 +61,21 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
-  gem 'rails-controller-testing'
-  gem 'guard'
-  gem 'guard-minitest'
-  gem 'minitest'
-  gem 'minitest-reporters'
+  gem "rails-controller-testing"
+  gem "guard"
+  gem "guard-minitest"
+  gem "minitest"
+  gem "minitest-reporters"
 end
 
-gem 'sass-rails'
-gem 'uglifier'
-gem 'coffee-rails'
-gem 'jquery-rails'
-gem 'turbolinks'
+gem "sass-rails"
+gem "uglifier"
+gem "coffee-rails"
+gem "jquery-rails"
+gem "turbolinks"
 gem "concurrent-ruby", "1.3.4"
-gem 'bootstrap-sass', '3.3.7'
-gem 'bcrypt'
-gem 'faker'
+gem "bootstrap-sass", "3.3.7"
+gem "bcrypt"
+gem "faker"
 # Pagination gem
-gem 'kaminari'
+gem "kaminari"
