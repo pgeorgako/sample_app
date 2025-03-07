@@ -8,8 +8,8 @@ class SessionsController < ApplicationController
       log_in user
       redirect_to user # user_path(user) -> /users/:id
     else
-      flash.now[:danger] = 'Invalid email/password combination' # Not quite right!
-      render 'new'
+      flash.now[:danger] = "Invalid email/password combination" # Not quite right!
+      render "new"
     end
   end
 
